@@ -1,0 +1,15 @@
+{
+  "braille": [
+    { "character": "A", "dots": [1, 0, 0, 0, 0, 0]},
+    { "character": "B", "dots": [1, 0, 1, 0, 0, 0]},
+    { "character": "C", "dots": [1, 1, 0, 0, 0, 0]},
+    { "character": "D", "dots": [1, 1, 0, 1, 0, 0]},
+    { "character": "E", "dots": [1, 0, 0, 1, 0, 0]},
+    { "character": "F", "dots": [1, 1, 1, 0, 0, 0]},
+    { "character": "G", "dots": [1, 1, 1, 1, 0, 0]},
+    { "character": "H", "dots": [1, 0, 1, 1, 0, 0]},
+    { "character": "I", "dots": [0, 1, 1, 0, 0, 0]},
+    { "character": "J", "dots": [0, 1, 1, 1, 0, 0]},
+    { "character": "K", "dots": [1, 0, 0, 0, 1, 0]}
+  ]
+}
