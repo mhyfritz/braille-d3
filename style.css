@@ -1,7 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
 html, body {
     background-color: #222;
+    color: white;
     margin: 0;
     padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+.container {
+    display: inline-block;
+}
+
+.container h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    margin: 0;
 }
 
 circle {
