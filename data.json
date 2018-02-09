@@ -1,15 +1,17 @@
 {
   "braille": [
-    { "character": "A", "dots": [1, 0, 0, 0, 0, 0]},
-    { "character": "B", "dots": [1, 0, 1, 0, 0, 0]},
-    { "character": "C", "dots": [1, 1, 0, 0, 0, 0]},
-    { "character": "D", "dots": [1, 1, 0, 1, 0, 0]},
-    { "character": "E", "dots": [1, 0, 0, 1, 0, 0]},
-    { "character": "F", "dots": [1, 1, 1, 0, 0, 0]},
-    { "character": "G", "dots": [1, 1, 1, 1, 0, 0]},
-    { "character": "H", "dots": [1, 0, 1, 1, 0, 0]},
-    { "character": "I", "dots": [0, 1, 1, 0, 0, 0]},
-    { "character": "J", "dots": [0, 1, 1, 1, 0, 0]},
-    { "character": "K", "dots": [1, 0, 0, 0, 1, 0]}
+    { "symbol": "A", "dots": [1, 0, 0, 0, 0, 0], "category": "letter" },
+    { "symbol": "B", "dots": [1, 0, 1, 0, 0, 0], "category": "letter" },
+    { "symbol": "C", "dots": [1, 1, 0, 0, 0, 0], "category": "letter" },
+    { "symbol": "D", "dots": [1, 1, 0, 1, 0, 0], "category": "letter" },
+    { "symbol": "E", "dots": [1, 0, 0, 1, 0, 0], "category": "letter" },
+    { "symbol": "F", "dots": [1, 1, 1, 0, 0, 0], "category": "letter" },
+    { "symbol": "G", "dots": [1, 1, 1, 1, 0, 0], "category": "letter" },
+    { "symbol": "H", "dots": [1, 0, 1, 1, 0, 0], "category": "letter" },
+    { "symbol": "I", "dots": [0, 1, 1, 0, 0, 0], "category": "letter" },
+    { "symbol": "J", "dots": [0, 1, 1, 1, 0, 0], "category": "letter" },
+    { "symbol": "K", "dots": [1, 0, 0, 0, 1, 0], "category": "letter" },
+    { "symbol": "#", "dots": [0, 1, 0, 1, 1, 1], "category": "number" },
+    { "symbol": "1", "dots": [1, 0, 0, 0, 0, 0], "category": "number" }
   ]
 }
