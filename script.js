@@ -4,8 +4,8 @@ d3.json('data.json', data => {
 
 function vis(codes) {
   const chart = d3.select('#vis')
-  for (const { key, group } of groupby(codes, code => code.category)) {
-    chart.append('h2').text((key + 's').toUpperCase())
+  for (const group of R.groupWith((a, b) => a.category === b.category, codes)) {
+    chart.append('h2').text((group[0].category + 's').toUpperCase())
     for (const code of group) {
       const container = chart.append('div')
         .attr('class', 'container')
@@ -22,25 +22,9 @@ function vis(codes) {
         .attr('cy', (d, i) => `${(Math.floor(i / 2) + 1) * 20}px`)
         .attr('r', '3px')
         .transition()
+        .delay(1000)
         .duration(400)
-        .delay(400)
         .attr('r', d => `${(d * 3) + 3}px`)
     }
   }
-}
-
-function groupby (iterable, keyfunc) {
-  const ret = []
-  for (const elem of iterable) {
-    const key = keyfunc(elem)
-    if (ret.length === 0 || ret[ret.length - 1].key !== key) {
-      ret.push({
-        key,
-        group: [elem]
-      })
-    } else {
-      ret[ret.length - 1].group.push(elem)
-    }
-  }
-  return ret
 }
