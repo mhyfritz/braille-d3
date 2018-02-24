@@ -20,12 +20,12 @@ h2,
 h3 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 h1 {
     font-size: 2rem;
     text-align: center;
-    text-transform: uppercase;
 }
 
 h2 {
