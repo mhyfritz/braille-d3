@@ -18,14 +18,14 @@ function vis(codes) {
         .data(code.dots)
         .enter()
         .append('circle')
-        .attr('cx', (d, i) => (i % 2 + 1) * 20)
-        .attr('cy', (d, i) => `${(Math.floor(i / 2) + 1) * 20}px`)
-        .attr('r', '3px')
+        .attr('cx', (d, i) => (Math.floor(i / 3) + 1) * 20)
+        .attr('cy', (d, i) => (i % 3 + 1) * 20)
+        .attr('r', 3)
         .transition()
         .ease(d3.easeBackOut)
         .delay(1000)
         .duration(1000)
-        .attr('r', d => `${(d * 3) + 3}px`)
+        .attr('r', d => (d * 3) + 3)
     }
   }
 }
