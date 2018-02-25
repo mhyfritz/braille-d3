@@ -1,4 +1,6 @@
-# Braille
+# Braille Alphabet Visualization (with D3.js)
+
+![Screenshot](braille-d3.png)
 
 ## Setup
 
