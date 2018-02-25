@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300');
 
-html, body {
+html {
     background-color: #222;
-    color: white;
-    margin: 0;
-    padding: 0;
 }
 
 body {
-    padding: 20px;
+    margin: 0;
+    padding: 40px;
+    color: white;
 }
 
 .container {
@@ -24,6 +23,7 @@ h3 {
 }
 
 h1 {
+    margin: 0;
     font-size: 2rem;
     text-align: center;
 }
