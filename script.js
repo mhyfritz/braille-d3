@@ -5,7 +5,7 @@ d3.json('data.json', data => {
 function vis(codes) {
   const chart = d3.select('#vis')
   for (const group of R.groupWith((a, b) => a.category === b.category, codes)) {
-    chart.append('h2').text((group[0].category + 's'))
+    chart.append('h2').text(`${group[0].category}s`)
     for (const code of group) {
       const container = chart.append('div')
         .attr('class', 'container')
